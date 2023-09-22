@@ -1,6 +1,6 @@
 {
   "name": "games.cheetah.grpc",
-  "version": "999.999.999",
+  "version": "1.0.1",
   "displayName": "games.cheetah.grpc",
   "description": "Grpc library",
   "unity": "2019.1",

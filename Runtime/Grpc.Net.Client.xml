@@ -606,6 +606,12 @@
             Cached log scope and URI for a gRPC <see cref="T:Grpc.Core.IMethod"/>.
             </summary>
         </member>
+        <member name="M:Grpc.Net.Client.Internal.GrpcProtocolConstants.GetDebugEnumerator(Grpc.Core.ChannelBase,Grpc.Core.IMethod,System.Object)">
+            <summary>
+            Gets key value pairs used by debugging. These are provided as an enumerator instead of a dictionary
+            because it's one method to implement an enumerator on gRPC calls compared to a dozen members for a dictionary.
+            </summary>
+        </member>
         <member name="M:Grpc.Net.Client.Internal.GrpcProtocolHelpers.ResolveRpcExceptionStatusCode(System.Exception)">
             <summary>
             Resolve the exception from HttpClient to a gRPC status code.
